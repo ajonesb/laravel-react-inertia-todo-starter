@@ -1,0 +1,72 @@
+body {
+    height: 100vh;
+    font-family: "Nunito", sans-serif;
+}
+.form-container {
+    border: 1px solid #dbdbdb;
+    max-width: 80%;
+    margin: 100px auto;
+    padding: 5%;
+}
+
+/* Tasks heading */
+.task-heading {
+    font-size: 52px;
+    margin-bottom: 21px;
+    font-weight: normal;
+}
+
+/* Task input and button */
+.task-form-container {
+    display: flex;
+    align-items: left;
+    margin-bottom: 100px;
+}
+
+.task-input {
+    border: 1px solid rgb(206, 206, 206);
+    padding: 20px 10px;
+    width: 100%;
+}
+
+.task-submit-btn {
+    background-color: rgb(0, 140, 255);
+    border: none;
+    cursor: pointer;
+    color: white;
+    width: 94px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/* Task list */
+.task-wrapper {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Individual tasks and delete buttons */
+.task-items {
+    margin: 12px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e2e2e2;
+    padding: 0px;
+    background-color: #f0f0f0;
+}
+
+.task-item-name {
+    padding: 0px 10px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.task-delete-btn {
+    background-color: rgba(251, 36, 29, 0.869);
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 13px;
+    padding: 18px;
+    font-weight: bold;
+}
