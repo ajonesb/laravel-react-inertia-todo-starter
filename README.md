@@ -123,3 +123,13 @@ This is a simple todo application in React - Inertia for the frontend and Larave
 -   `php artisan serve` (for the backend)
 
 -   `npm run dev` (for the frontend)
+
+Demo: 
+
+![image](https://github.com/ajonesb/laravel-react-inertia-todo-starter/assets/17410649/74212863-5b03-452d-a40a-29231ff56cd0)
+
+The database on MySQL: 
+
+![image](https://github.com/ajonesb/laravel-react-inertia-todo-starter/assets/17410649/b4d5df06-845f-4883-bfdc-893a0a427c22)
+
+
